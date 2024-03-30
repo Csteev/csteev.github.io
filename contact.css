@@ -1,0 +1,248 @@
+*{ 
+    text-decoration: none;
+    margin: 0; 
+    padding: 0; 
+}
+
+.btn {
+    background-color: #000000a9;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 15px;
+}
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+.top-nav{ 
+    padding: 8px 12px;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+}
+.top-nav .social-links {
+    list-style: none;
+}
+a{
+color: white;
+} 
+.fa-facebook{
+    font-size: 70px;
+    color: blue;
+}
+li a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+.top-nav .social-links li{
+    display: inline;
+    margin-right: 10px;
+}
+.fa-facebook {
+    font-size: 20px;
+    color: blue;
+}
+.fa-youtube{
+    font-size: 20px;
+    color: red;
+}
+.fa-square-twitter{
+    font-size: 20px;
+    color: skyblue;
+}
+
+.top-nav .social-links li:last-child{
+    margin-right: 0;
+}
+
+nav {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+button{
+    background-color: #000000a9;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 15px;
+}
+
+nav .logo{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff3d3d;
+}
+nav .logo span{
+    color: #4346ff;
+}
+
+nav .menu {
+    list-style: none;
+}
+
+nav .menu .menu-item {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav .menu .menu-item:last-of-type {
+    margin-right: 0;
+}
+
+nav .menu a {
+    color: #666666;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+nav .menu .menu-item.active a, 
+nav .menu .menu-item:hover a {
+    color: #ff3d3d;
+}
+.c{
+    margin: 20px;
+    font-size: 60px;
+    text-align: center;
+}
+.tel{
+    margin: 20px;
+    font-size: 60px;
+    border: 1px;
+    border-radius: 10px;
+    margin-left: 360px;
+    width: 550px;
+    height: 230px;
+    text-align: center;
+    background-color: rgb(202, 186, 186);
+}
+.tel .number{
+    color: blue;
+    font-weight: bold;
+}
+.mail{
+    margin: 20px;
+    font-size: 60px;
+    border: 1px;
+    border-radius: 10px;
+    margin-left: 260px;
+    width: 750px;
+    height: 230px;
+    text-align: center;
+    background-color: rgb(202, 186, 186);
+}
+.mail .email{
+    color: blue;
+    font-weight: bold;
+}
+.worries{
+    margin: 20px;
+    font-size: 60px;
+    border: 1px;
+    border-radius: 10px;
+    margin-left: 290px;
+    width: 700px;
+    height: 500px;
+    text-align: center;
+    background-color: white;
+}
+.worries .talk{
+    color: blue;
+    font-weight: bold;
+}
+.c{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 5px;
+    margin-left: 430px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    border: 1px;
+    width: 380px;
+    height: 500px;
+    background-color: white;
+}
+.d{
+    margin: 20px;
+    font-size: 60px;
+    text-align: center;
+}
+footer{
+    background-color: black;
+}
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+.socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialicons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+/* Hover effect on Social Media Icons */
+.socialicons a:hover{
+    background-color: blue;
+    transition: 0.5s;
+}
+.socialicons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footernav ul{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footernav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footernav ul li a:hover{
+    opacity: 1;
+}
+.footerbottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerbottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media (max-width: 700px){
+    .footernav ul{
+        flex-direction: column;   
+    }
+    .footernav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
